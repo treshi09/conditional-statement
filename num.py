@@ -4,5 +4,7 @@ num=int(input("Enter any number to check if it is greater than 15 or smaller tha
 if num > 15:
 
     print(f"{num}>15")
-else:
+elif num < 15:
     print(f"{num}<15")
+else:
+    print(f"{num} is equal to 15")
